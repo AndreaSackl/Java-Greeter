@@ -36,3 +36,7 @@
   git commit -m "Update"
   git merge --no-ff --no-commit s3
   --> Merge erfolgreich
+  
+--> git push
+
+
