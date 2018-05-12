@@ -15,3 +15,24 @@
 --> GroupExercise Folder geadded, committed und gepushed
 
 --> Start Java Implementation
+
+--> s2 Branch erstellt, SayHello Methode implementiert, committed
+--> s3 Branch erstellt, SayGoodbye Methode implementiert, committed
+
+--> s2 Branch und Master Branch gemerged
+  git checkout s2
+  git pull 
+  git checkout master
+  git pull
+  git commit -m "Update"
+  git merge --no-ff --no-commit s2
+  --> Merge erfolgreich
+
+--> s3 Branch und Master Branch gemerged
+  git checkout s3
+  git pull 
+  git checkout master
+  git pull
+  git commit -m "Update"
+  git merge --no-ff --no-commit s3
+  --> Merge erfolgreich
