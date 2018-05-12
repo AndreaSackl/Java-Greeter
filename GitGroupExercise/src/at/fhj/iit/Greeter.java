@@ -24,7 +24,12 @@ public interface Greeter {
 	 *  - change name of current GreeterImpl Call
 	 * 
 	 *  - create branch S2
-	 *  - implement sayHello() Method 	(! Student 2 !)
+	 *  - implement sayHello() Method 	(! Student 2 !) **/
+	 
+	public String SayHello(String name) {
+        	return "Hello, " + name;
+    	}
+	 /**
 	 *	- simple "Hello, <your name>!" output
 	 *  
 	 *  - create branch S3
