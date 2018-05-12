@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Greeter g = new GreeterImpl("Mike Ulm");
+		IAmGreet g = new IAmGreet("Andy Sackl");
 
 	}
 
