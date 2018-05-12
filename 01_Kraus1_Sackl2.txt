@@ -1,6 +1,6 @@
 
-Kraus, Andreas
-Sackl, Andrea
+Kraus
+Sackl
 
 Link: https://github.com/AndreaSackl/Java-Greeter.git
 
