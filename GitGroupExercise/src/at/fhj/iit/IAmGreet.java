@@ -9,11 +9,23 @@ public class IAmGreet {
    }
 
     public void setName(String name) {
-        this.name = name;
+
+       this.name = name;
     }
 
     public String getName() {
-        return name;
+
+       return name;
+    }
+
+    public String SayHello(String name) {
+        return "Hello, " + name;
+    }
+
+    public String SayGoodbye(String name) {
+        return "Good Bye, " + name;
     }
 
 }
+
+
