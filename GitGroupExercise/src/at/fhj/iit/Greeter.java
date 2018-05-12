@@ -29,12 +29,25 @@ public interface Greeter {
 	 *  - change name of current GreeterImpl Call
 	 * 
 	 *  - create branch S2
-	 *  - implement sayHello() Method 	(! Student 2 !)
+	 *  - implement sayHello() Method 	(! Student 2 !) **/
+	 
+	public String SayHello(String name) {
+        	return "Hello, " + name;
+    	}
+	 /**
 	 *	- simple "Hello, <your name>!" output
 	 *  
 	 *  - create branch S3
 	 *  - implement sayGoodBye() Method (! Student 1, 2, or 3 !)
 	 *  - simple "Good Bye, <your name>!" output
+	 **/
+	
+	public String SayGoodbye(String name) {
+        	return "Good Bye, " + name;
+    	}
+	
+	/**
+	 
 	 *
 	 *	=> publish all branches to remote repository
 	 *  
