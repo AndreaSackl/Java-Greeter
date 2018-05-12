@@ -1,6 +1,6 @@
 package at.fhj.iit;
 
-public class IAmGreet {
+public class IAmGreet implements Greeter{
    private String name = null;
 
    public IAmGreet (String name){
@@ -13,16 +13,26 @@ public class IAmGreet {
        this.name = name;
     }
 
+    @Override
+    public void sayHello() {
+
+    }
+
+    @Override
+    public void sayGoodbye() {
+
+    }
+
     public String getName() {
 
        return name;
     }
 
-    public String SayHello(String name) {
+    public String SayHello() {
         return "Hello, " + name;
     }
 
-    public String SayGoodbye(String name) {
+    public String SayGoodbye() {
         return "Good Bye, " + name;
     }
 

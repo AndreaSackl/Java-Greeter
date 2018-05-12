@@ -6,6 +6,9 @@ public class Main {
 		
 		IAmGreet g = new IAmGreet("Andy Sackl");
 
+		System.out.println(g.SayHello());
+		System.out.println(g.SayGoodbye());
+
 	}
 
 }

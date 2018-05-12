@@ -1,6 +1,11 @@
 package at.fhj.iit;
 
 public interface Greeter {
+
+	public String getName();
+	public void setName(String name);
+
+
 	
 	/**
 	 * Student 1
