@@ -35,6 +35,14 @@ public interface Greeter {
 	 *  - create branch S3
 	 *  - implement sayGoodBye() Method (! Student 1, 2, or 3 !)
 	 *  - simple "Good Bye, <your name>!" output
+	 **/
+	
+	public String SayGoodbye(String name) {
+        	return "Good Bye, " + name;
+    	}
+	
+	/**
+	 
 	 *
 	 *	=> publish all branches to remote repository
 	 *  
