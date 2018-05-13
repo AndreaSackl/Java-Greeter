@@ -31,9 +31,7 @@ public interface Greeter {
 	 *  - create branch S2
 	 *  - implement sayHello() Method 	(! Student 2 !) **/
 	 
-	public String SayHello(String name) {
-        	return "Hello, " + name;
-    	}
+
 	 /**
 	 *	- simple "Hello, <your name>!" output
 	 *  
@@ -42,9 +40,7 @@ public interface Greeter {
 	 *  - simple "Good Bye, <your name>!" output
 	 **/
 	
-	public String SayGoodbye(String name) {
-        	return "Good Bye, " + name;
-    	}
+
 	
 	/**
 	 
